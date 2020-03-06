@@ -1,0 +1,84 @@
+body {
+ background-color: #ADD8E6;
+ color: rgb(30, 30, 30);
+  font-family: Arial;
+  font-size: 17px;
+} 
+
+h1 
+ {
+ color: #006994;
+  font-family: Helvetica;
+  font-size: 35px;
+ } 
+
+h2 {
+color: #696969;
+ } 
+
+a {
+text-decoration: none;
+color: #2F4F4F;
+} 
+a:hover {
+color: 	#4B0082;
+ } 
+
+ /* Custom design with class */
+
+ .container {
+ 	width: 700px;
+ 	margin: 35px auto;
+}
+
+.card-white {
+background-color: white;
+padding:  40px;
+box-shadow: 0px 10px 30px rgba(0,0,0,0.2);
+border-radius: 7px;
+margin: 25px 0px;
+text-align: center;
+}
+
+.img-circle {
+	border-radius: 50%;
+}
+
+.img-Ny {
+	width: 250px;
+	height: 185px;
+	text-align: right;
+	border-radius: 8px; 
+}
+.img-London {
+	text-align: center;
+	width: 250px;
+    height: 185px;
+	border-radius: 8px;
+}
+
+.img-Israel {
+text-align: left;
+width: 250px;
+height: 185px;
+border-radius: 8px; 	
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+.list-inline i {
+font-size: 40px;
+color:#00008b;
+
+} 
+
+.list-inline i:hover {
+color: black;
+} 
